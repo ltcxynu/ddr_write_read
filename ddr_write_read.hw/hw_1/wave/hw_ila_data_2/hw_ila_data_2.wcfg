@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/project_fpga/ddr_write_read/ddr_write_read.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="327"></ZoomStartTime>
+      <ZoomEndTime time="832"></ZoomEndTime>
+      <Cursor1Time time="512"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="778"></NameColumnWidth>
+      <ValueColumnWidth column_width="273"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0/inst/PL_DDR_v1_0_AXI_M_inst/mst_exec_state" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0/inst/PL_DDR_v1_0_AXI_M_inst/mst_exec_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mst_exec_state[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0_axi_m_BID" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0_axi_m_BID[5:1]</obj_property>
+      <obj_property name="ObjectShortName">PL_DDR_v1_0_0_axi_m_BID[5:1]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="STATE_W_R_IDLE" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">STATE_W_R_IDLE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_W_R_IDLE[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="data_trans2ddr" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">data_trans2ddr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_trans2ddr[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0_axi_m_RID" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0_axi_m_RID[5:1]</obj_property>
+      <obj_property name="ObjectShortName">PL_DDR_v1_0_0_axi_m_RID[5:1]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="counter_write_line" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">counter_write_line[19:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_write_line[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="counter_read_line" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">counter_read_line[19:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_read_line[19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="read_done" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">read_done</obj_property>
+      <obj_property name="ObjectShortName">read_done</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Trans_done" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Trans_done</obj_property>
+      <obj_property name="ObjectShortName">Trans_done</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="write_done" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">write_done</obj_property>
+      <obj_property name="ObjectShortName">write_done</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0/inst/PL_DDR_v1_0_AXI_M_inst/burst_read_active" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0/inst/PL_DDR_v1_0_AXI_M_inst/burst_read_active</obj_property>
+      <obj_property name="ObjectShortName">burst_read_active</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0/inst/PL_DDR_v1_0_AXI_M_inst/burst_write_active" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0/inst/PL_DDR_v1_0_AXI_M_inst/burst_write_active</obj_property>
+      <obj_property name="ObjectShortName">burst_write_active</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0/inst/PL_DDR_v1_0_AXI_M_inst/read_burst_counter" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0/inst/PL_DDR_v1_0_AXI_M_inst/read_burst_counter[13:0]</obj_property>
+      <obj_property name="ObjectShortName">read_burst_counter[13:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0/inst/PL_DDR_v1_0_AXI_M_inst/reads_done" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0/inst/PL_DDR_v1_0_AXI_M_inst/reads_done</obj_property>
+      <obj_property name="ObjectShortName">reads_done</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0/inst/PL_DDR_v1_0_AXI_M_inst/start_single_burst_read" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0/inst/PL_DDR_v1_0_AXI_M_inst/start_single_burst_read</obj_property>
+      <obj_property name="ObjectShortName">start_single_burst_read</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0/inst/PL_DDR_v1_0_AXI_M_inst/start_single_burst_write" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0/inst/PL_DDR_v1_0_AXI_M_inst/start_single_burst_write</obj_property>
+      <obj_property name="ObjectShortName">start_single_burst_write</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0/inst/PL_DDR_v1_0_AXI_M_inst/write_burst_counter" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0/inst/PL_DDR_v1_0_AXI_M_inst/write_burst_counter[13:0]</obj_property>
+      <obj_property name="ObjectShortName">write_burst_counter[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0/inst/PL_DDR_v1_0_AXI_M_inst/writes_done" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">mpsoc_wrapper/axi_ddr_mpsoc_i/PL_DDR_v1_0_0/inst/PL_DDR_v1_0_AXI_M_inst/writes_done</obj_property>
+      <obj_property name="ObjectShortName">writes_done</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

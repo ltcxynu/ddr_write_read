@@ -1,0 +1,4 @@
+verify_write_read_SIM_PS_AXI_S_v1_0_0_0.v,verilog,xil_defaultlib,../../../bd/verify_write_read/ip/verify_write_read_SIM_PS_AXI_S_v1_0_0_0/sim/verify_write_read_SIM_PS_AXI_S_v1_0_0_0.v,
+verify_write_read_PL_DDR_v1_0_0_0.v,verilog,xil_defaultlib,../../../bd/verify_write_read/ip/verify_write_read_PL_DDR_v1_0_0_0/sim/verify_write_read_PL_DDR_v1_0_0_0.v,
+verify_write_read.v,verilog,xil_defaultlib,../../../bd/verify_write_read/sim/verify_write_read.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

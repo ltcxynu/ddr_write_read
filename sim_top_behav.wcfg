@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sim_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4,319,724 ps"></ZoomStartTime>
+      <ZoomEndTime time="4,320,368 ps"></ZoomEndTime>
+      <Cursor1Time time="4,320,135 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="384"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="68" />
+   <wvobject fp_name="/sim_top/dut/clk_100M" type="logic">
+      <obj_property name="ElementShortName">clk_100M</obj_property>
+      <obj_property name="ObjectShortName">clk_100M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/clk_200M" type="logic">
+      <obj_property name="ElementShortName">clk_200M</obj_property>
+      <obj_property name="ObjectShortName">clk_200M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/counter_write_line" type="array">
+      <obj_property name="ElementShortName">counter_write_line[19:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_write_line[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/counter_read_line" type="array">
+      <obj_property name="ElementShortName">counter_read_line[19:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_read_line[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/data_trans2ddr" type="array">
+      <obj_property name="ElementShortName">data_trans2ddr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_trans2ddr[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/write_data_valid" type="logic">
+      <obj_property name="ElementShortName">write_data_valid</obj_property>
+      <obj_property name="ObjectShortName">write_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/read_data_valid" type="logic">
+      <obj_property name="ElementShortName">read_data_valid</obj_property>
+      <obj_property name="ObjectShortName">read_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/data_outvalid" type="logic">
+      <obj_property name="ElementShortName">data_outvalid</obj_property>
+      <obj_property name="ObjectShortName">data_outvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/axi_write_done" type="logic">
+      <obj_property name="ElementShortName">axi_write_done</obj_property>
+      <obj_property name="ObjectShortName">axi_write_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/write_done" type="logic">
+      <obj_property name="ElementShortName">write_done</obj_property>
+      <obj_property name="ObjectShortName">write_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/STATE_W_R_IDLE" type="array">
+      <obj_property name="ElementShortName">STATE_W_R_IDLE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_W_R_IDLE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_init_axi_txn" type="logic">
+      <obj_property name="ElementShortName">axi_m_init_axi_txn</obj_property>
+      <obj_property name="ObjectShortName">axi_m_init_axi_txn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_txn_done" type="logic">
+      <obj_property name="ElementShortName">axi_m_txn_done</obj_property>
+      <obj_property name="ObjectShortName">axi_m_txn_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_error" type="logic">
+      <obj_property name="ElementShortName">axi_m_error</obj_property>
+      <obj_property name="ObjectShortName">axi_m_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_aclk" type="logic">
+      <obj_property name="ElementShortName">axi_m_aclk</obj_property>
+      <obj_property name="ObjectShortName">axi_m_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_aresetn" type="logic">
+      <obj_property name="ElementShortName">axi_m_aresetn</obj_property>
+      <obj_property name="ObjectShortName">axi_m_aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_awid" type="array">
+      <obj_property name="ElementShortName">axi_m_awid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_awid[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_awaddr" type="array">
+      <obj_property name="ElementShortName">axi_m_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_awlen" type="array">
+      <obj_property name="ElementShortName">axi_m_awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_awlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_awsize" type="array">
+      <obj_property name="ElementShortName">axi_m_awsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_awsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_awburst" type="array">
+      <obj_property name="ElementShortName">axi_m_awburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_awburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_awlock" type="logic">
+      <obj_property name="ElementShortName">axi_m_awlock</obj_property>
+      <obj_property name="ObjectShortName">axi_m_awlock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_awcache" type="array">
+      <obj_property name="ElementShortName">axi_m_awcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_awcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_awprot" type="array">
+      <obj_property name="ElementShortName">axi_m_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_awqos" type="array">
+      <obj_property name="ElementShortName">axi_m_awqos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_awqos[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_awuser" type="array">
+      <obj_property name="ElementShortName">axi_m_awuser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_awuser[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_awvalid" type="logic">
+      <obj_property name="ElementShortName">axi_m_awvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_m_awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_awready" type="logic">
+      <obj_property name="ElementShortName">axi_m_awready</obj_property>
+      <obj_property name="ObjectShortName">axi_m_awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_wdata" type="array">
+      <obj_property name="ElementShortName">axi_m_wdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_wdata[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_wstrb" type="array">
+      <obj_property name="ElementShortName">axi_m_wstrb[15:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_wstrb[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_wlast" type="logic">
+      <obj_property name="ElementShortName">axi_m_wlast</obj_property>
+      <obj_property name="ObjectShortName">axi_m_wlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/axi_write_done_ff1" type="logic">
+      <obj_property name="ElementShortName">axi_write_done_ff1</obj_property>
+      <obj_property name="ObjectShortName">axi_write_done_ff1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/axi_write_done_ff2" type="logic">
+      <obj_property name="ElementShortName">axi_write_done_ff2</obj_property>
+      <obj_property name="ObjectShortName">axi_write_done_ff2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_wuser" type="array">
+      <obj_property name="ElementShortName">axi_m_wuser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_wuser[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_wvalid" type="logic">
+      <obj_property name="ElementShortName">axi_m_wvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_m_wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_wready" type="logic">
+      <obj_property name="ElementShortName">axi_m_wready</obj_property>
+      <obj_property name="ObjectShortName">axi_m_wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_bid" type="array">
+      <obj_property name="ElementShortName">axi_m_bid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_bid[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_bresp" type="array">
+      <obj_property name="ElementShortName">axi_m_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_buser" type="array">
+      <obj_property name="ElementShortName">axi_m_buser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_buser[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_bvalid" type="logic">
+      <obj_property name="ElementShortName">axi_m_bvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_m_bvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_bready" type="logic">
+      <obj_property name="ElementShortName">axi_m_bready</obj_property>
+      <obj_property name="ObjectShortName">axi_m_bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_arid" type="array">
+      <obj_property name="ElementShortName">axi_m_arid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_arid[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_arlen" type="array">
+      <obj_property name="ElementShortName">axi_m_arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_arlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_arsize" type="array">
+      <obj_property name="ElementShortName">axi_m_arsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_arsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_arburst" type="array">
+      <obj_property name="ElementShortName">axi_m_arburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_arburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_arlock" type="logic">
+      <obj_property name="ElementShortName">axi_m_arlock</obj_property>
+      <obj_property name="ObjectShortName">axi_m_arlock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_arcache" type="array">
+      <obj_property name="ElementShortName">axi_m_arcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_arcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_arprot" type="array">
+      <obj_property name="ElementShortName">axi_m_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_arqos" type="array">
+      <obj_property name="ElementShortName">axi_m_arqos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_arqos[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_aruser" type="array">
+      <obj_property name="ElementShortName">axi_m_aruser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_aruser[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_arvalid" type="logic">
+      <obj_property name="ElementShortName">axi_m_arvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_m_arvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_arready" type="logic">
+      <obj_property name="ElementShortName">axi_m_arready</obj_property>
+      <obj_property name="ObjectShortName">axi_m_arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_araddr" type="array">
+      <obj_property name="ElementShortName">axi_m_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_rid" type="array">
+      <obj_property name="ElementShortName">axi_m_rid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_rid[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_rdata" type="array">
+      <obj_property name="ElementShortName">axi_m_rdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_rdata[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_rresp" type="array">
+      <obj_property name="ElementShortName">axi_m_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_rlast" type="logic">
+      <obj_property name="ElementShortName">axi_m_rlast</obj_property>
+      <obj_property name="ObjectShortName">axi_m_rlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_ruser" type="array">
+      <obj_property name="ElementShortName">axi_m_ruser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_m_ruser[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_rvalid" type="logic">
+      <obj_property name="ElementShortName">axi_m_rvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_m_rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m_rready" type="logic">
+      <obj_property name="ElementShortName">axi_m_rready</obj_property>
+      <obj_property name="ObjectShortName">axi_m_rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[1023:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/write_data_valid" type="logic">
+      <obj_property name="ElementShortName">write_data_valid</obj_property>
+      <obj_property name="ObjectShortName">write_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/read_data" type="array">
+      <obj_property name="ElementShortName">read_data[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[1023:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/read_data_valid" type="logic">
+      <obj_property name="ElementShortName">read_data_valid</obj_property>
+      <obj_property name="ObjectShortName">read_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/data_valid" type="logic">
+      <obj_property name="ElementShortName">data_valid</obj_property>
+      <obj_property name="ObjectShortName">data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/Trans_done" type="logic">
+      <obj_property name="ElementShortName">Trans_done</obj_property>
+      <obj_property name="ObjectShortName">Trans_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/write_done" type="logic">
+      <obj_property name="ElementShortName">write_done</obj_property>
+      <obj_property name="ObjectShortName">write_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top/dut/wrapper/verify_write_read_i/PL_DDR_v1_0_0/axi_m" type="protoinst">
+      <obj_property name="ElementShortName">axi_m</obj_property>
+      <obj_property name="ObjectShortName">axi_m</obj_property>
+   </wvobject>
+</wave_config>

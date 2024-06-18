@@ -1,0 +1,37 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.5",
+   "Default View_TopLeft":"-191,-221",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port port-id_axi_m_init_axi_txn_0 -pg 1 -lvl 0 -x -10 -y 90 -defaultsOSRD
+preplace port port-id_axi_m_aclk_0 -pg 1 -lvl 0 -x -10 -y 110 -defaultsOSRD
+preplace port port-id_axi_m_aresetn_0 -pg 1 -lvl 0 -x -10 -y 130 -defaultsOSRD
+preplace port port-id_write_data_valid_0 -pg 1 -lvl 0 -x -10 -y 210 -defaultsOSRD
+preplace port port-id_read_data_valid_0 -pg 1 -lvl 0 -x -10 -y 190 -defaultsOSRD
+preplace port port-id_data_valid_0 -pg 1 -lvl 3 -x 990 -y 40 -defaultsOSRD
+preplace port port-id_Trans_done_0 -pg 1 -lvl 3 -x 990 -y 220 -defaultsOSRD
+preplace port port-id_write_done_0 -pg 1 -lvl 3 -x 990 -y 200 -defaultsOSRD
+preplace portBus write_data_0 -pg 1 -lvl 0 -x -10 -y 150 -defaultsOSRD
+preplace portBus read_data_0 -pg 1 -lvl 3 -x 990 -y 20 -defaultsOSRD
+preplace inst SIM_PS_AXI_S_v1_0_0 -pg 1 -lvl 2 -x 850 -y 120 -defaultsOSRD
+preplace inst PL_DDR_v1_0_0 -pg 1 -lvl 1 -x 530 -y 140 -defaultsOSRD
+preplace netloc PL_DDR_v1_0_0_Trans_done 1 1 2 710J 220 NJ
+preplace netloc PL_DDR_v1_0_0_data_valid 1 1 2 710J 40 NJ
+preplace netloc PL_DDR_v1_0_0_read_data 1 1 2 700J 20 NJ
+preplace netloc axi_m_aclk_0_1 1 0 2 30 260 720
+preplace netloc axi_m_aresetn_0_1 1 0 2 10 270 730
+preplace netloc axi_m_init_axi_txn_0_1 1 0 1 N 90
+preplace netloc read_data_valid_0_1 1 0 1 N 190
+preplace netloc write_data_0_1 1 0 1 N 150
+preplace netloc write_data_valid_0_1 1 0 1 20 170n
+preplace netloc PL_DDR_v1_0_0_write_done 1 1 2 NJ 200 NJ
+preplace netloc PL_DDR_v1_0_0_axi_m 1 1 1 730 80n
+levelinfo -pg 1 -10 530 850 990
+pagesize -pg 1 -db -bbox -sgen -200 -290 1180 1080
+"
+}
+{
+   "da_axi4_cnt":"1"
+}

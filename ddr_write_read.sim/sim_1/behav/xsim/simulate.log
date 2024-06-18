@@ -1,0 +1,2 @@
+Time resolution is 1 ps
+Warning: [Unisim MMCME4_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance sim_top.dut.instance_name.inst.mmcme4_adv_inst 

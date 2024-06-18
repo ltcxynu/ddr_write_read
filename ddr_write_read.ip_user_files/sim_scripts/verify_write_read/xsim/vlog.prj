@@ -1,0 +1,8 @@
+verilog xil_defaultlib --include "D:/xilinx/Vivado/2021.2/data/xilinx_vip/include" \
+"../../../bd/verify_write_read/ip/verify_write_read_SIM_PS_AXI_S_v1_0_0_0/sim/verify_write_read_SIM_PS_AXI_S_v1_0_0_0.v" \
+"../../../bd/verify_write_read/ip/verify_write_read_PL_DDR_v1_0_0_0/sim/verify_write_read_PL_DDR_v1_0_0_0.v" \
+"../../../bd/verify_write_read/sim/verify_write_read.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

@@ -1,0 +1,38 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_top_behav xil_defaultlib.sim_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'axi_m_awuser' [E:/project_fpga/ddr_write_read/ddr_write_read.ip_user_files/bd/verify_write_read/ip/verify_write_read_PL_DDR_v1_0_0_0/sim/verify_write_read_PL_DDR_v1_0_0_0.v:243]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'axi_m_wuser' [E:/project_fpga/ddr_write_read/ddr_write_read.ip_user_files/bd/verify_write_read/ip/verify_write_read_PL_DDR_v1_0_0_0/sim/verify_write_read_PL_DDR_v1_0_0_0.v:249]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'axi_m_buser' [E:/project_fpga/ddr_write_read/ddr_write_read.ip_user_files/bd/verify_write_read/ip/verify_write_read_PL_DDR_v1_0_0_0/sim/verify_write_read_PL_DDR_v1_0_0_0.v:254]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'axi_m_aruser' [E:/project_fpga/ddr_write_read/ddr_write_read.ip_user_files/bd/verify_write_read/ip/verify_write_read_PL_DDR_v1_0_0_0/sim/verify_write_read_PL_DDR_v1_0_0_0.v:266]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'axi_m_ruser' [E:/project_fpga/ddr_write_read/ddr_write_read.ip_user_files/bd/verify_write_read/ip/verify_write_read_PL_DDR_v1_0_0_0/sim/verify_write_read_PL_DDR_v1_0_0_0.v:273]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 's00_axi_awuser' [E:/project_fpga/ddr_write_read/ddr_write_read.ip_user_files/bd/verify_write_read/ip/verify_write_read_SIM_PS_AXI_S_v1_0_0_0/sim/verify_write_read_SIM_PS_AXI_S_v1_0_0_0.v:225]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 's00_axi_wuser' [E:/project_fpga/ddr_write_read/ddr_write_read.ip_user_files/bd/verify_write_read/ip/verify_write_read_SIM_PS_AXI_S_v1_0_0_0/sim/verify_write_read_SIM_PS_AXI_S_v1_0_0_0.v:231]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 's00_axi_buser' [E:/project_fpga/ddr_write_read/ddr_write_read.ip_user_files/bd/verify_write_read/ip/verify_write_read_SIM_PS_AXI_S_v1_0_0_0/sim/verify_write_read_SIM_PS_AXI_S_v1_0_0_0.v:236]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 's00_axi_aruser' [E:/project_fpga/ddr_write_read/ddr_write_read.ip_user_files/bd/verify_write_read/ip/verify_write_read_SIM_PS_AXI_S_v1_0_0_0/sim/verify_write_read_SIM_PS_AXI_S_v1_0_0_0.v:249]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 's00_axi_ruser' [E:/project_fpga/ddr_write_read/ddr_write_read.ip_user_files/bd/verify_write_read/ip/verify_write_read_SIM_PS_AXI_S_v1_0_0_0/sim/verify_write_read_SIM_PS_AXI_S_v1_0_0_0.v:256]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.vio_0
+Compiling module unisims_ver.IBUFDS
+Compiling module unisims_ver.MMCME4_ADV(CLKFBOUT_MULT_F=4.0,C...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.PL_DDR_v1_0_AXI_M(C_M_AXI_BURST_...
+Compiling module xil_defaultlib.PL_DDR_v1_0(C_AXI_M_BURST_LEN=8,...
+Compiling module xil_defaultlib.verify_write_read_PL_DDR_v1_0_0_...
+Compiling module xil_defaultlib.SIM_PS_AXI_S_v1_0_S00_AXI(C_S_AX...
+Compiling module xil_defaultlib.SIM_PS_AXI_S_v1_0(C_S00_AXI_DATA...
+Compiling module xil_defaultlib.verify_write_read_SIM_PS_AXI_S_v...
+Compiling module xil_defaultlib.verify_write_read
+Compiling module xil_defaultlib.verify_write_read_wrapper
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.sim_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_top_behav

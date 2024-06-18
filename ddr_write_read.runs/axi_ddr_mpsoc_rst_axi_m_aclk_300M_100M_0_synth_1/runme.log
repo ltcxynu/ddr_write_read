@@ -1,0 +1,17 @@
+
+*** Running vivado
+    with args -log axi_ddr_mpsoc_rst_axi_m_aclk_300M_100M_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source axi_ddr_mpsoc_rst_axi_m_aclk_300M_100M_0.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source axi_ddr_mpsoc_rst_axi_m_aclk_300M_100M_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/project_fpga/custom_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2021.2/data/ip'.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP axi_ddr_mpsoc_rst_axi_m_aclk_300M_100M_0, cache-ID = f1e47d14d60fd52e.
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 17 09:48:46 2024...
